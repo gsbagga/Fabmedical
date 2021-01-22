@@ -23,7 +23,7 @@ on:
 # Jobs define the actions that take place when code is pushed to the master branch
 jobs:
    build-and-publish-docker-image:
-     name: Build and Push Docker Image
+     name: Build and Push Docker Images
      runs-on: ubuntu-latest
      steps:
      # Checkout the repo
